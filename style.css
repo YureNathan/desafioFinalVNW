@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Kanit&family=Lato:wght@300;400;700;900&family=Roboto:wght@100;400;500&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+header {
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 12vw;
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu {
+    height: 10vh;
+    width: 14vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.menu a {
+    padding: 10px;
+}
+
+.menu img {
+    height: 3vh;
+}
+
+main {
+    border: 2px red solid;
+    height: 160vh;
+}
+
+.banner {
+    background-image: url("./imgs/banner.png");
+    background-position: center;
+    background-size: contain;
+    height: 42vh;
+}
+
+.menuProdutos {
+    display: flex;
+    justify-content: space-between;
+    height: 10vh;
+    border-bottom: 1px #A5A1A1 solid;
+    padding: 35px;
+}
+
+h2 {
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+p { 
+    font-size: 19px;
+}
+
+.produtos{
+    display: flex;
+    justify-content: space;
+    align-items: center;
+    border: 2px royalblue solid;
+    height: 100%;
+    flex-wrap: wrap;
+  
+}
+
+figure {
+
+}
