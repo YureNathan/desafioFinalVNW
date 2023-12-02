@@ -7,73 +7,69 @@
 }
 
 header {
-    height: 10vh;
+    
     display: flex;
     justify-content: space-between;
     align-items: center;
+    height: 10vh;
+    
 }
 
-.logo {
-    width: 12vw;
+.div-logo {
+    padding-left: 60px;
+    
+}
+
+.div-menu {
+    height: 7vh;
+    width: 13vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+
+.section-banner {
+   background-image: url("./imgs/banner.png");
+   height: 42vh;
+   background-position: center;
+   background-size: contain;
+}
+
+.section-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 9vh;
+    padding: 0 60px;
+    border-bottom: 1px solid #A5A1A1;
+}
+
+/*
+.section-cards-products {
     display: flex;
     justify-content: space-around;
-}
-
-.menu {
-    height: 10vh;
-    width: 14vw;
-    display: flex;
     align-items: center;
-    justify-content: space-evenly;
-}
-
-.menu a {
-    padding: 10px;
-}
-
-.menu img {
-    height: 3vh;
-}
-
-main {
-    border: 2px red solid;
-    height: 160vh;
-}
-
-.banner {
-    background-image: url("./imgs/banner.png");
-    background-position: center;
-    background-size: contain;
-    height: 42vh;
-}
-
-.menuProdutos {
-    display: flex;
-    justify-content: space-between;
-    height: 10vh;
-    border-bottom: 1px #A5A1A1 solid;
-    padding: 35px;
-}
-
-h2 {
-    text-transform: uppercase;
-    font-size: 20px;
-}
-
-p { 
-    font-size: 19px;
-}
-
-.produtos{
-    display: flex;
-    justify-content: space;
-    align-items: center;
-    border: 2px royalblue solid;
-    height: 100%;
     flex-wrap: wrap;
-  
+    border: 2px solid brown;
+    max-width: 50%
 }
 
-figure {
 
+ para corrigir dar nome para div e colocar outro para section section cards e div cards*/ 
+main {
+    border: 2px solid blueviolet;
+    height: 100vh;
+    width: 100vw;
+}
+
+
+
+.cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 50%;
+    align-items: center;
+    max-width: 50%
 }
