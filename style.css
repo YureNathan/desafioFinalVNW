@@ -60,12 +60,13 @@ header {
     padding-top: 60px;
     flex-wrap: wrap;
     border-bottom: 1px solid #A5A1A1;
-    width: 100%;
+ 
 }
 
 .card {
     height: 50vh;
     width: 25%;
+    
 
 
 }
@@ -103,4 +104,15 @@ span {
     cursor: pointer;
     background-color: #512200BF;
 
+}
+
+footer {
+    background-color: #F9F9F9;
+    display: flex;
+    justify-content: space-between;
+    height: 15vh;
+}
+
+.email-footer {
+    border-bottom: 0.5px solid #A5A1A1;
 }
