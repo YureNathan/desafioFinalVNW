@@ -27,10 +27,7 @@ header {
     align-items: center;
 }
 
-main {
-    border: red solid 2px;
- 
-}
+
 
 .section-banner {
    background-image: url("./imgs/banner.png");
@@ -67,8 +64,9 @@ main {
 }
 
 .card {
-    height: 62vh;
+    height: 50vh;
     width: 25%;
+
 
 }
 
