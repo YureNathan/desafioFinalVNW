@@ -111,50 +111,57 @@ footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 176px;
+  height: 11rem;
 
 }
 
 .menu-footer {
-  padding-left: 79px;
+  padding-left: 4.938rem;
 }
 .menu-footer li {
  
-  margin-bottom: 9px;
+  margin-bottom: 0.563rem;
 }
 .menu-footer a {
   text-decoration: none;
   color: #161616;
-  font-size: 18px;
+  font-size: 1.125rem;
   font-weight: 700;
 }
 
 .email-footer {
-  padding-right: 79px;
+  padding-right: 4.938rem;
 }
 .email-footer h3 {
-  font-size: 18px;
-  padding-bottom: 13px;
+  font-size: 1.125rem;
+  padding-bottom: 0.813rem;
 }
 
 .email-footer input {
-  width: 25em;
-  height: 39px;
-  padding-left: 10px;
-  border: 0.5px solid #d9d9d9;
-  border-radius: 6px 0px 0px 6px;
+  width: 300px;
+  height: 2.438rem;
+  padding-left: 0.625rem;
+  color: #edecec;
+  border: 0.031rem solid #edecec;
+  border-radius: 0.313rem 0px 0px 0.313rem;
+  font-weight: 700;
+  font-size: 0.938rem;
+  
 }
 
 .email-footer button {
   text-align: center;
-  width: 6vw;
-  height: 39px;
+  width: 125px;
+  height: 2.438rem;
   background-color: #5ca720;
   color: #ffffff;
   border: none;
-  border-radius: 0px 5px 5px 0px;
+  border-radius: 0px 0.313rem 0.313rem 0px;
   position: relative;
-  right: 3px;
+  right: 0.188rem;
+  font-weight: 700;
+  font-size: 1.063rem;
+ 
 }
 .email-footer button:hover {
   cursor: pointer;
@@ -167,18 +174,18 @@ footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 100px;
+  height: 6.25rem;
 }
 
 .iconesFooter {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 20px;
-  padding: 0 79px;
+  gap: 1.25rem;
+  padding: 0 4.938rem;
  
 }
 
 .iconesFooter img {
-  max-width: 40px;
+  max-width: 2.5rem;
 }
