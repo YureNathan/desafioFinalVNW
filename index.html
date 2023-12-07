@@ -1,108 +1,179 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-BR">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
-  <title>Self Care</title>
-</head>
-<body>
-  <header>
-    <div class="div-logo">
-      <a href="#"><img src="./imgs/logoSelfCare.png" alt="logo SelfCare"></a>
-    </div>
-    <div class="div-menu">
-      <a href="#"><img src="./imgs/search.png" alt="Lupa pesquisa"></a>
-      <a href="#"><img src="./imgs/user.png" alt="Usuário"></a>
-      <a href="#"><img src="./imgs/cart.png" alt="Carrinho de compras"></a>
-    </div>
-  </header>
-  <main>
-    <section class="section-banner">
-    </section>
-    <section class="section-content">
-      <h3>Promoção</h3>
-      <p>9 Produtos</p>
-    </section>
-    <section class="produtos">
-      <div class="card">
-        <img src="./imgs/Elixir da Eternidade.png" alt="Elixir da Eternidade">
-        <h3>Elixir da Eternidade</h3>
-        <p>R$ <span>50,00</span></p>
-        <button>Comprar</button>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Self Care</title>
+  </head>
+  <body>
+    <header>
+      <div class="div-logo">
+        <a href="#"
+          ><img src="./imgs/logoSelfCare.png" alt="logo SelfCare"
+        /></a>
       </div>
-      <div class="card">
-        <img src="./imgs/Vitamina do Sol.png" alt="Vitamina do sol">
-        <h3>Vitamina do Sol</h3>
-        <p>R$ <span>50,00</span></p>
-        <button>Comprar</button>
+      <div class="div-menu">
+        <a href="#"><img src="./imgs/search.png" alt="Lupa pesquisa"/></a>
+        <a href="#"><img src="./imgs/user.png" alt="Usuário"/></a>
+        <a href="#"><img src="./imgs/cart.png" alt="Carrinho de compras"/></a>
       </div>
-      <div class="card">
-        <img src="./imgs/Vitamina da Lua.png" alt="Vitamina do lua">
-        <h3>Vitamina da Lua</h3>
-        <p>R$ <span>50,00</span></p>
-        <button>Comprar</button>
-      </div>
-      <div class="card">
-        <img src="./imgs/Petalas de Amor.png" alt="Pétalas de Amor">
-        <h3>Pétalas de Amor</h3>
-        <p>R$ <span>50,00</span></p>
-        <button>Comprar</button>
-      </div>
-      <div class="card">
-        <img src="./imgs/Essencia da Natureza.png" alt="Essência da Natureza">
-        <h3>Essência da Natureza</h3>
-        <p>R$<span>50,00</span></p>
-        <button>Comprar</button>
-      </div>
-      <div class="card">
-        <img src="./imgs/Jasmin com notas de Rosa.png" alt="Jasmin com notas de Rosa">
-        <h3>Jasmin com notas de Rosa</h3>
-        <p>R$<span>50,00</span></p>
-        <button>Comprar</button>
-      </div>
-      <div class="card">
-        <img src="./imgs/Essencia de Melissa.png" alt="Essência de Melissa">
-        <h3>Essência de Melissa</h3>
-        <p>R$<span>50,00</span></p>
-        <button>Comprar</button>
-      </div>
-      <div class="card">
-        <img src="./imgs/Pureza Iluminada.png" alt="Pureza Iluminada">
-        <h3>Pureza Iluminada</h3>
-        <p>R$<span>50,00</span></p>
-        <button>Comprar</button>
-      </div>
-      <div class="card">
-        <img src="./imgs/Essencia de patchouli.png" alt="Essência de patchouli">
-        <h3>Essência de patchouli</h3>
-        <p>R$<span>50,00</span></p>
-        <button>Comprar</button>
-      </div>
-    </section>
-  </main>
-  <footer>
-    <ul class="menu-footer">
-      <li><a href="#">Contato</a></li>
-      <li><a href="#">Termos de seviço</a></li>
-      <li><a href="#">Política de privacidade</a></li>
-      <li><a href="#">Cancelamento, troca e reembolso</a></li>
-    </ul>
-    <form class="email-footer">
-      <h3>Newsletter</h3>
-      <input type="email" name="email" placeholder="Digite seu melhor e-mail">
-      <button>Inscrever</button>
-    </form>
-    <section >
-      <ul class="menu-social">
-        <li><a href="#"><img src="./imgs/Instagram.png" alt="Instagram"></a></li>
-        <li><a href="#"><img src="./imgs/Facebook.png" alt="Facebook"></a></li>
-        <li><a href="#"><img src="./imgs/master.png" alt="Cartões Mastercard"></a></li>
-        <li><a href="#"><img src="./imgs/paypal.png" alt="Paypal"></a></li>
-        <li><a href="#"><img src="./imgs/visa.png" alt="Cartões Visa"></a></li>
-  </ul> 
-    </section>
-   
-  </footer>
-</body>
+    </header>
+    <main>
+      <section class="section-banner"></section>
+      <section class="section-content">
+        <h3>Promoção</h3>
+        <p>9 Produtos</p>
+      </section>
+      <section class="produtos">
+        <div class="card">
+          <figure>
+            <img
+              src="./imgs/Elixir da Eternidade.png"
+              alt="Elixir da Eternidade"
+            />
+          </figure>
+          <h3>Elixir da Eternidade</h3>
+          <p>R$<span>50,00</span></p>
+          <button>Comprar</button>
+        </div>
+        <div class="card">
+          <figure>
+            <img
+              src="./imgs/Vitamina do Sol.png"
+              alt="Vitamina do Sol"
+            />
+          </figure>
+          <h3>Vitamina do Sol</h3>
+          <p>R$<span>50,00</span></p>
+          <button>Comprar</button>
+        </div>
+        <div class="card">
+          <figure>
+            <img
+              src="./imgs/Vitamina da Lua.png"
+              alt="Vitamina da Lua"
+            />
+          </figure>
+          <h3>Vitamina da Lua</h3>
+          <p>R$<span>50,00</span></p>
+          <button>Comprar</button>
+        </div>
+        <div class="card">
+          <figure>
+            <img
+              src="./imgs/Petalas de Amor.png"
+              alt="Pétalas de Amor"
+            />
+          </figure>
+          <h3>Pétalas de Amor</h3>
+          <p>R$<span>50,00</span></p>
+          <button>Comprar</button>
+        </div>
+        <div class="card">
+          <figure>
+            <img
+              src="./imgs/Essencia da Natureza.png"
+              alt="Essência da Natureza"
+            />
+          </figure>
+          <h3>Essência da Natureza</h3>
+          <p>R$<span>50,00</span></p>
+          <button>Comprar</button>
+        </div>
+        <div class="card">
+          <figure>
+            <img
+              src="./imgs/Jasmin com notas de Rosa.png"
+              alt="Jasmin com notas de Rosa"
+            />
+          </figure>
+          <h3>Jasmin com notas de Rosa</h3>
+          <p>R$<span>50,00</span></p>
+          <button>Comprar</button>
+        </div>
+        <div class="card">
+          <figure>
+            <img
+              src="./imgs/Essencia de Melissa.png"
+              alt="Essência de Melissa"
+            />
+          </figure>
+          <h3>Essência de Melissa</h3>
+          <p>R$<span>50,00</span></p>
+          <button>Comprar</button>
+        </div>
+        <div class="card">
+          <figure>
+            <img
+              src="./imgs/Pureza Iluminada.png"
+              alt="Pureza Iluminada"
+            />
+          </figure>
+          <h3>Pureza Iluminada</h3>
+          <p>R$<span>50,00</span></p>
+          <button>Comprar</button>
+        </div>
+        <div class="card">
+          <figure>
+            <img
+              src="./imgs/Essencia de patchouli.png"
+              alt="Essência de patchouli"
+            />
+          </figure>
+          <h3>Essência de patchouli</h3>
+          <p>R$<span>50,00</span></p>
+          <button>Comprar</button>
+        </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <section class="content-footer">
+        <ul class="menu-footer">
+          <li><a href="#">Contato</a></li>
+          <li><a href="#">Termos de seviço</a></li>
+          <li><a href="#">Política de privacidade</a></li>
+          <li><a href="#">Cancelamento, troca e reembolso</a></li>
+        </ul>
+        <form class="email-footer">
+          <h3>Newsletter</h3>
+          <input
+            type="email"
+            name="email"
+            placeholder="Digite seu melhor e-mail"
+          />
+          <button>Inscrever</button>
+        </form>
+      </section>
+      <section class="teste">
+        <div class="rede-social">
+          <ul class="pagamentos">
+            <li>
+              <a href="#"><img src="./imgs/Instagram.png" alt="Instagram" /></a>
+            </li>
+            <li>
+              <a href="#"><img src="./imgs/Facebook.png" alt="Facebook" /></a>
+            </li>
+          </ul>
+        </div>
+
+        <div>
+          <ul class="pagamentos">
+            <li>
+              <a href="#"
+                ><img src="./imgs/master.png" alt="Cartões Mastercard"
+              /></a>
+            </li>
+            <li>
+              <a href="#"><img src="./imgs/paypal.png" alt="Paypal" /></a>
+            </li>
+            <li>
+              <a href="#"><img src="./imgs/visa.png" alt="Cartões Visa" /></a>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </footer>
+  </body>
 </html>
