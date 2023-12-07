@@ -4,6 +4,7 @@
   margin: 0;
   box-sizing: border-box;
   font-family: "Lato", sans-serif;
+  list-style: none;
 }
 
 header {
@@ -19,15 +20,16 @@ header {
 
 .div-menu {
   display: flex;
-  gap: 1.5rem;
+  gap: 1.2rem;
   padding-right: 3.125rem;
+  height: 38px;
 }
 
 .section-banner {
   background-image: url("./imgs/banner.png");
   height: 24rem;
   background-position: center;
-  background-size: contain;
+  background-size: cover;
 }
 
 .section-content {
@@ -109,22 +111,27 @@ footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 25vh;
-  
+  height: 176px;
+
 }
 
 .menu-footer {
   padding-left: 79px;
 }
-
+.menu-footer li {
+ 
+  margin-bottom: 9px;
+}
 .menu-footer a {
   text-decoration: none;
   color: #161616;
   font-size: 18px;
   font-weight: 700;
-  padding-bottom: 55px;
 }
 
+.email-footer {
+  padding-right: 79px;
+}
 .email-footer h3 {
   font-size: 18px;
   padding-bottom: 13px;
@@ -135,6 +142,7 @@ footer {
   height: 39px;
   padding-left: 10px;
   border: 0.5px solid #d9d9d9;
+  border-radius: 6px 0px 0px 6px;
 }
 
 .email-footer button {
@@ -148,28 +156,29 @@ footer {
   position: relative;
   right: 3px;
 }
+.email-footer button:hover {
+  cursor: pointer;
+  background-color: #512200bf;
 
-li {
-  list-style: none;
-  padding-bottom: 7px;
 }
 
-.menu-social {
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  gap: 25px;
-}
-
-.teste {
+.footerBaixo {
+  border-top: 0.020rem solid #A5A1A1;
   display: flex;
   justify-content: space-between;
-  border: 2px solid blueviolet;
-  height: 8em;
-  gap: 25px;
+  align-items: center;
+  height: 100px;
 }
-.pagamentos {
+
+.iconesFooter {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  gap: 20px;
+  padding: 0 79px;
+ 
+}
+
+.iconesFooter img {
+  max-width: 40px;
 }
