@@ -22,7 +22,7 @@ header {
   display: flex;
   gap: 1.2rem;
   padding-right: 3.125rem;
-  height: 38px;
+  height: 2.375rem;
 }
 
 .section-banner {
@@ -54,7 +54,6 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
- 
   flex-wrap: wrap;
   padding: 3.563rem;
   gap: 4.063rem;
@@ -119,7 +118,6 @@ footer {
   padding-left: 4.938rem;
 }
 .menu-footer li {
- 
   margin-bottom: 0.563rem;
 }
 .menu-footer a {
@@ -138,12 +136,12 @@ footer {
 }
 
 .email-footer input {
-  width: 300px;
+  width: 18.75rem;
   height: 2.438rem;
   padding-left: 0.625rem;
   color: #edecec;
   border: 0.031rem solid #edecec;
-  border-radius: 0.313rem 0px 0px 0.313rem;
+  border-radius: 0.313rem 0rem 0rem 0.313rem;
   font-weight: 700;
   font-size: 0.938rem;
   
@@ -151,12 +149,12 @@ footer {
 
 .email-footer button {
   text-align: center;
-  width: 125px;
+  width: 7.813rem;
   height: 2.438rem;
   background-color: #5ca720;
   color: #ffffff;
   border: none;
-  border-radius: 0px 0.313rem 0.313rem 0px;
+  border-radius: 0rem 0.313rem 0.313rem 0rem;
   position: relative;
   right: 0.188rem;
   font-weight: 700;
