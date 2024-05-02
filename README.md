@@ -21,4 +21,4 @@ SafeCare é um projeto desenvolvido com HTML e CSS, aplicando conceitos de respo
 2. 2. Abra o arquivo `index.html` em seu navegador web.
 
 ## Imagem do projeto Finalizado
-<img src="imgs/safecare.png" height:450px>
+<img src="imgs/safecare.png" height="400px">
