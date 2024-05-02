@@ -19,3 +19,8 @@ SafeCare é um projeto desenvolvido com HTML e CSS, aplicando conceitos de respo
 
 1. Clone este repositório em sua máquina local:
 2. 2. Abra o arquivo `index.html` em seu navegador web.
+
+## Imagem do projeto
+
+![Screenshot do SafeCare](desafioFinalVNW
+/imgs/safecare.png)
